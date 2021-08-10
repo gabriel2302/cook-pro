@@ -1,0 +1,222 @@
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url('/assets/background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  filter: opacity(0.3);
+}
+
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.login-logo {
+  margin: -30px auto 0;
+}
+
+.login-box {
+  margin: 0 auto;
+  background-color: #a81515;
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.login-box-header {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box-input {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.login-box-input::placeholder {
+  font-family: 'Pompiere';
+  font-size: 25px;
+  color: #000;
+}
+
+.login-box-input + input {
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group input[type=checkbox] {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.input-group label {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.login-button{
+  font-family: 'Pompiere';
+  margin: 0 auto;
+  width: 200px;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #1a4789;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+} 
+
+.forget-password {
+  margin: 10px auto 0;
+  color: #a81515;
+  font-size: 25px;
+
+}
+
+.forget-password a {
+  color: #a81515;
+  text-decoration: none;
+}
+
+.seta {
+  display: flex;
+  margin: 0 auto 10px;
+}
+
+.linha {
+  align-self: center;
+  width: 300px;
+  height: 0;
+  border: 1px solid transparent;
+  display:block;
+  border-color:#a81515;
+  background-color: #a81515;
+}
+.seta-esquerda {
+    width:0;
+    height:0;
+    border: 5px solid transparent;
+    display:block;
+    color: #a81515;
+    border-right-color:#a81515;
+}
+
+.seta-direita {
+  width:0;
+  height:0;
+  border: 5px solid transparent;
+  display:block;
+  color: #a81515;
+  border-left-color:#a81515;
+}
+
+/* Sign up */
+
+.signup-box {
+  margin: 0 auto;
+  background-color: #a81515;
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-box-header {
+  font-size: 25px;
+  color: #fff;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.signup-box-button-1 {
+  display: flex;
+  align-items: normal;
+  padding: 10px 20px;
+  border: 0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-family: 'Pompiere';
+}
+
+.signup-box-button-1 span{
+  color: #ff914d;
+  font-size: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.signup-box-button-2 {
+  display: flex;
+  align-items: normal;
+  padding: 10px 20px;
+  border: 0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-family: 'Pompiere';
+}
+
+.signup-box-button-2 span{
+  color: #1a4789;
+  font-size: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.signup-box-button-3 {
+  display: flex;
+  align-items: normal;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Pompiere';
+}
+
+.signup-box-button-3 span{
+  color: #34a853;
+  font-size: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
